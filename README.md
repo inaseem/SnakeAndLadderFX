@@ -23,7 +23,7 @@ Snake :snake: And Ladders game made using <b>JavaFX</b> with animations, shadow 
   <li>OOP</li>
 </ul>
 
-## How you can contribute
+## Contribute to
 <ul>
   <li>Detect player win's</li>
   <li>Player positions UI on game end</li>
