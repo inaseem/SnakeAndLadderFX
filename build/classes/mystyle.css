@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 17, 2016, 9:51:57 PM
+    Author     : Naseem Ali
+*/
+
+.root{
+    -fx-background-color: white;
+}
+.button{
+    -fx-text-fill:white;
+    -fx-font-size:15px;
+    -fx-background-radius:5 5 5 5;
+    -fx-background-color:royalblue;
+}
+.button:hover{
+    -fx-background-color: yellowgreen;
+}
+#floatinglabel{
+    -fx-border-radius: 25;
+    -fx-background-radius:25;
+    -fx-background-color: #E91E63;
+}
+#floatinglabel:hover{
+    -fx-background-color: yellowgreen;
+}
+#title{
+    -fx-fill: #818181;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+#titlebox{
+    -fx-background-radius:0 0 10 10;
+    -fx-background-color:#E91E63;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,1) , 5, 0.0 , 0 , 1 );
+}
+#board{
+    -fx-background-radius:5 5 5 5;
+    -fx-background-color:yellowgreen;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+#dice{
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+#reset{
+    -fx-font-size:20px;
+}
